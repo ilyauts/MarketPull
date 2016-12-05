@@ -3,8 +3,8 @@
 # MarketPull
 Pull historical market data!
 
-## Expected usage:
-    python marketPull.py [ticker] [priceType]
+## Expected usage of example driver:
+    python marketPullDriver.py [ticker] [priceType]
 
 ## Legend:
     ticker = ['AAPL', 'JNJ', ...] # Any valid stock ticker, capitalization agnostic
