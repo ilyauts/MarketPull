@@ -3,15 +3,14 @@
 # MarketPull
 Pull historical market data!
 
-##Expected usage:
+## Expected usage:
     python marketPull.py [ticker] [priceType]
 
-Legend:
--------
+## Legend:
     ticker = ['AAPL', 'JNJ', ...] # Any valid stock ticker, capitalization agnostic
     priceType = ['open', 'close', 'low', 'high']
 
-Price type explanations:
+## Price type explanations:
     'open': price of stock at the opening bell of each day
     'close': price of stock at the closing bell of each day
     'low': lowest stock price on the day
