@@ -3,18 +3,18 @@
 # MarketPull
 Pull historical market data!
 
-For now the program is simple. Simply run:
+##Expected usage:
+    python marketPull.py [ticker] [priceType]
 
-    python marketPull.py
+Legend:
+-------
+    ticker = ['AAPL', 'JNJ', ...] # Any valid stock ticker, capitalization agnostic
+    priceType = ['open', 'close', 'low', 'high']
 
-in your terminal.
+Price type explanations:
+    'open': price of stock at the opening bell of each day
+    'close': price of stock at the closing bell of each day
+    'low': lowest stock price on the day
+    'high': highest stock price on the day
 
-You will be prompted for a ticker symbol:
-
-    Enter ticker symbol:
-
-Make sure to enter the symbol as a string
-
-    "AAPL"
-
-This will result in a graph with date vs. closing prices for your stock.
+This will result in a graph with date vs. priceType price for your stock.
